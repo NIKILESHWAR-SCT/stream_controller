@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv(".env.development")  
+load_dotenv(".env.sample")  
 
 class Settings:
     DATABASE_URL: str = os.getenv(
